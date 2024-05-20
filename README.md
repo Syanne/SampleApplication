@@ -11,7 +11,7 @@
    ```
 
 # Run application
-Please run both Sample.Auth.Api and Sample.ConsoleApp and follow instructions in Sample.ConsoleApp
+Please run both Sample.Auth.Api and Sample.ConsoleApp and following instructions in Sample.ConsoleApp
 
 You have a pre-set up user. Credentials:
 userName: sampleUser@test.com
