@@ -1,8 +1,9 @@
 # Db Setup
 
-1. Please create an empty database with user, that has an db_owner role. Then replace a ReadWriteDbConnection in Sample.Auth.Api/appsettings.json 
-2. Select Sample.Auth.Api (Identity server) as Startup
-3. Execure following instructions:
+1. Please create an empty database with user, that has an db_owner role.
+2. Then replace a ReadWriteDbConnection in Sample.Auth.Api/appsettings.json 
+3. Select Sample.Auth.Api (Identity server) as Startup
+4. Execure following instructions:
    ```
     Update-Database -Project Sample.Auth.DataAccess.MsSql -Context ConfigurationDbContext
     Update-Database -Project Sample.Auth.DataAccess.MsSql -Context PersistedGrantDbContext
