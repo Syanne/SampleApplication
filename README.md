@@ -17,6 +17,8 @@ You have a pre-set up user. Credentials:
 userName: sampleUser@test.com
 password: sampleUser@test.com
 
+# Post-login event
+simply writes a log to Logs table
 
 
 
